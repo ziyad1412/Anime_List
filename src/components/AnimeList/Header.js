@@ -7,7 +7,7 @@ export const Header = ({ title, linkHref, linkTitle }) => {
       {linkHref && linkTitle ? (
         <Link
           href={linkHref}
-          className="md:text-xl text-sm underline hover:text-indigo-500 transition-all"
+          className="md:text-xl text-sm underline hover:text-color-accent transition-all text-color-primary"
         >
           {linkTitle}
         </Link>
