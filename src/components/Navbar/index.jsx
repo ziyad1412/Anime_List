@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { InputSearch } from "./InputSearch";
+import UserActionButton from "./UserActionButton";
 
 export const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ export const Navbar = () => {
           ZANIMELIST
         </Link>
         <InputSearch />
+        <UserActionButton />
       </div>
     </header>
   );
